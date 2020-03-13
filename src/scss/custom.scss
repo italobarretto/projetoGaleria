@@ -1,0 +1,80 @@
+.jumbotron {
+    background-color: #fff;
+    margin: 0;
+}
+
+.jumbotron .jumbotron-heading {
+    font-weight: 300;
+}
+
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: right;
+}
+
+header {
+    background-color: #00A5CF;
+}
+
+.hovered {
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: dashed;
+    border-color: rgba(122, 122, 122, 0.541);
+}
+
+img {
+    box-shadow: 3px 3px 3px grey;
+}
+
+#collapseAlbum {
+    align-items: stretch;
+    width: 100%;
+}
+
+#cardAlbum {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#adicionarAlbum {
+    align-self: flex-end;
+}
+
+.album {
+    display: flex;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 0.5rem;
+    height: 150px;
+    width: 150px;
+    align-self: flex-start;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+
+    font-family: monospace;
+    font-size: 1.7rem;
+    color: rgba(175, 175, 175, 0.616);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.albumDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.albumHovered {
+    background-color: rgba(228, 228, 228, 0.329);
+    color: rgb(182, 182, 182);
+    border: 2px dashed rgba(180, 180, 180, 0.836);
+}
