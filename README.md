@@ -16,9 +16,10 @@ Preview disponível [Aqui](https://italobarretto.github.io/projetoGaleriaBuild/)
 
 ## Funcionalidades
 
-- Filtrar fotos por país de origem;
-- Arrastar fotos para reordená-las;
-- Criar albuns personalizados e salvar fotos específicas neles.
+- Carregar os componentes HTML em `index.html` utilizando requisições AJAX; [(Implementação aqui)](./src/js/core/includes.js)
+- Filtrar fotos por país de origem; [(Implementação aqui)](./src/js/plugins/cityButtons.js)
+- Arrastar fotos para reordená-las; [(Implementação aqui)](./src/js/plugins/dragndrop.js)
+- Criar albuns personalizados e salvar fotos específicas neles. [(Implementação aqui)](./src/js/plugins/album.js)
 
 ## Desenvolvimento
 
